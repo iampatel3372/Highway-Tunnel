@@ -1,0 +1,38 @@
+/Users/himanshupatel/CLionProjects/untitled3/cmake-build-debug/untitled3
+CS558 : COMPUTER SYSTEM LAB ASSIGNMENT - 04
+Instructor : Dr. Manas Khatua and Dr. Moumita Patra
+TA's : Alakesh Kalita, Arunav Saikia, Meenu Rani Dey, Priya Undriwade, Vinay Kumar Gupta
+Sumbittted By : Himanshu Patel(204101029), Ketan Karnakota(204101030)
+Enter the Number of vehicles : 6
+Enter direction of vehicle 0 enter LR(left to right) or RL(right to left) : LR
+Enter direction of vehicle 1 enter LR(left to right) or RL(right to left) : RL
+Enter direction of vehicle 2 enter LR(left to right) or RL(right to left) : LR
+Enter direction of vehicle 3 enter LR(left to right) or RL(right to left) : RL
+Enter direction of vehicle 4 enter LR(left to right) or RL(right to left) : LR
+Enter direction of vehicle 5 enter LR(left to right) or RL(right to left) : RL
+
+0 2 4  || Red || Vehicle 1 is using tunnel from Right to Left || Red || 3 5 
+
+0 2 4  || Green || Tunnel is free now  || Green || 3 5 
+
+2 4  || Red || Vehicle 0 is using tunnel from Left to Right || Red || 3 5 
+
+2 4  || Green || Tunnel is free now  || Green || 3 5 
+
+4  || Red || Vehicle 2 is using tunnel from Left to Right || Red || 3 5 
+
+4  || Green || Tunnel is free now  || Green || 3 5 
+
+4  || Red || Vehicle 3 is using tunnel from Right to Left || Red || 5 
+
+4  || Green || Tunnel is free now  || Green || 5 
+
+ || Red || Vehicle 4 is using tunnel from Left to Right || Red || 5 
+
+ || Green || Tunnel is free now  || Green || 5 
+
+ || Red || Vehicle 5 is using tunnel from Right to Left || Red || 
+
+ || Green || Tunnel is free now  || Green || 
+
+Process finished with exit code 0
